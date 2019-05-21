@@ -1,5 +1,5 @@
 import React from 'react';
-import bonuses, { getRandomBonus } from './bonuses';
+import bonuses, { getRandomBonus } from './data/bonuses';
 
 import Container from './Container';
 import Wheel from './Wheel';
@@ -14,7 +14,7 @@ class SpinTheWheel extends React.Component {
   };
 
   spin = () => {
-    const spinsAmount = this.props.spinsAmount;
+    const { spinsAmount, spinDuration, setSpinningStatus } = this.props;
     const bonus = getRandomBonus();
     const currentWheelPosition = this.state.nextWheelPosition;
     const nextWheelPosition =
@@ -29,10 +29,16 @@ class SpinTheWheel extends React.Component {
       currentWheelPosition,
       nextWheelPosition
     });
+
+    setSpinningStatus(true);
+    setTimeout(() => {
+      setSpinningStatus(false);
+    }, spinDuration * 1000);
   };
 
   render() {
     const { nextWheelPosition, currentWheelPosition } = this.state;
+    const { isSpinning } = this.props;
     console.log(this.state);
 
     return (
@@ -43,7 +49,7 @@ class SpinTheWheel extends React.Component {
           spinDuration={this.props.spinDuration}
         />
         <Highlighter />
-        <Button onClick={this.spin} />
+        <Button onClick={this.spin} disabled={isSpinning} />
       </Container>
     );
   }

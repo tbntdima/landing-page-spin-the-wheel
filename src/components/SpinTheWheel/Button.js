@@ -1,7 +1,9 @@
 import styled from 'styled-components';
-import buttonImage from '../../images/button.png';
+import buttonImage from './images/button.png';
 
-const Button = styled.a`
+const Button = styled.button.attrs(props => ({
+  disabled: props.disabled
+}))`
   position: absolute;
   z-index: 2;
   left: 50%;
@@ -10,8 +12,15 @@ const Button = styled.a`
   display: block;
   width: 247px;
   height: 290px;
+  border: none;
+  outline: none;
   background: url(${buttonImage}) center center / cover no-repeat;
-  cursor: pointer;
+  box-shadow: none;
+  cursor: ${props => (props.disabled ? 'not-allowed' : 'pointer')};
+  &:active,
+  &:focus {
+    outline: none;
+  }
   @media (max-width: 751px) {
     width: calc(24700vw / 751);
     height: calc((24700vw / 751) * 290 / 247);
