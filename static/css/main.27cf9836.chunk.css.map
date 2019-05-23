@@ -1,1 +1,0 @@
-{"version":3,"sources":["global.css"],"names":[],"mappings":"AAAA,EACE,qBACF,CAEA,KACE,kBACF,CAEA,IACE,cACF","file":"main.27cf9836.chunk.css","sourcesContent":["* {\r\n  box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n  background: #084f91;\r\n}\r\n\r\nimg {\r\n  max-width: 100%;\r\n}\r\n"]}

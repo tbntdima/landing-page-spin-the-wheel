@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/spin-the-wheel/precache-manifest.afbe95eb596936af74036fde06564a0b.js"
+  "/spin-the-wheel/precache-manifest.e05e75b69e3c6e2fc50b6a84af43c698.js"
 );
 
 self.addEventListener('message', (event) => {
