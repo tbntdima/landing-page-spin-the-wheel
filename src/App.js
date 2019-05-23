@@ -1,12 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Row, Col, Image } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import Footer from './components/Footer';
 import SpinTheWheel from './components/SpinTheWheel/';
 
 import backgroundImage from './images/background.png';
 import titleImage from './images/title.png';
 import coinsImage from './images/coins.png';
+import buttonImageActive from './components/SpinTheWheel/images/button-active.png';
 
 const Title = styled.div`
   position: relative;
@@ -58,16 +59,18 @@ class App extends React.Component {
     });
   };
 
+  componentDidMount() {
+    const img = new Image();
+    img.src = buttonImageActive;
+  }
+
   render() {
     return (
       <Row noGutters>
         <Col xs={12}>
           <TopContainer>
             <Title>
-              <Image
-                src={titleImage}
-                alt="Spin the wheel & find your fortune"
-              />
+              <img src={titleImage} alt="Spin the wheel & find your fortune" />
             </Title>
             <SpinTheWheel
               isSpinning={this.state.isSpinning}
