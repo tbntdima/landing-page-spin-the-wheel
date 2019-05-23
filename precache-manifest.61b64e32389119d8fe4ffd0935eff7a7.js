@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d6126ed85696f8ba2890b26f646bc3f9",
+    "revision": "eba4ce9eb10df89da859a8100d1aee6b",
     "url": "/spin-the-wheel/index.html"
   },
   {
-    "revision": "7a8ba364a844d377d09e",
+    "revision": "745bcf9b691bb5399692",
     "url": "/spin-the-wheel/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "dd08c844905861fdd5a3",
+    "revision": "8c1b55106ae855b71ffd",
     "url": "/spin-the-wheel/static/css/main.27cf9836.chunk.css"
   },
   {
-    "revision": "7a8ba364a844d377d09e",
-    "url": "/spin-the-wheel/static/js/2.2657c6ad.chunk.js"
+    "revision": "745bcf9b691bb5399692",
+    "url": "/spin-the-wheel/static/js/2.8f61bbdf.chunk.js"
   },
   {
-    "revision": "dd08c844905861fdd5a3",
-    "url": "/spin-the-wheel/static/js/main.7e0db1b7.chunk.js"
+    "revision": "8c1b55106ae855b71ffd",
+    "url": "/spin-the-wheel/static/js/main.7ff36d4e.chunk.js"
   },
   {
     "revision": "0e61f5307e49ce552904",
