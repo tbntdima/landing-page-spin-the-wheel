@@ -11,5 +11,5 @@ export default styled.div`
   justify-content: center;
   align-items: center;
   transform: ${props => (props.visible ? 'scale(1)' : 'scale(0)')};
-  transition: 1s;
+  transition: ${props => props.scaleDuration}s;
 `;

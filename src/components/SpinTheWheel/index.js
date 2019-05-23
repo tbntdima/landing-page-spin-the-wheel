@@ -14,8 +14,17 @@ class SpinTheWheel extends React.Component {
   };
 
   spin = () => {
-    const { spinsAmount, spinDuration, setSpinningStatus } = this.props;
+    const {
+      spinsAmount,
+      spinDuration,
+      coinsAnimationDuration,
+      setSpinStatus,
+      setBonus
+    } = this.props;
+
     const bonus = getRandomBonus();
+    setBonus(bonus);
+
     const currentWheelPosition = this.state.nextWheelPosition;
     const nextWheelPosition =
       currentWheelPosition < 360
@@ -30,15 +39,19 @@ class SpinTheWheel extends React.Component {
       nextWheelPosition
     });
 
-    setSpinningStatus(true);
+    setSpinStatus('spinning');
+
     setTimeout(() => {
-      setSpinningStatus(false);
+      setSpinStatus('animatingCoins');
+      setTimeout(() => {
+        setSpinStatus('complete');
+      }, coinsAnimationDuration * 1000);
     }, spinDuration * 1000);
   };
 
   render() {
     const { nextWheelPosition, currentWheelPosition } = this.state;
-    const { isSpinning } = this.props;
+    const { spinStatus } = this.props;
     console.log(this.state);
 
     return (
@@ -49,7 +62,7 @@ class SpinTheWheel extends React.Component {
           spinDuration={this.props.spinDuration}
         />
         <Highlighter />
-        <Button onClick={this.spin} disabled={isSpinning} />
+        <Button onClick={this.spin} disabled={spinStatus !== 'idle'} />
       </Container>
     );
   }

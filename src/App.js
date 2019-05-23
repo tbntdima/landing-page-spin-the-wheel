@@ -7,24 +7,41 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Coins from './components/Coins';
 import SpinTheWheel from './components/SpinTheWheel/';
+import ModalBonus from './components/ModalBonus';
 
 import titleImage from './images/title.png';
 import coinsImage from './images/coins.png';
 
+import bonuses from './data/bonuses';
+
 class App extends React.Component {
   state = {
-    firstSpin: true,
-    isSpinning: false
+    bonus: bonuses[0],
+    spinStatus: 'idle'
   };
 
-  setSpinningStatus = isSpinning => {
+  setBonus = bonus => {
     this.setState({
-      firstSpin: false,
-      isSpinning
+      bonus
+    });
+  };
+
+  setSpinStatus = spinStatus => {
+    // Possible spinStatuses: idle, spinning, animatingCoins, compolete
+    this.setState({
+      spinStatus
+    });
+  };
+
+  resetSpinStatus = () => {
+    this.setState({
+      spinStatus: 'idle'
     });
   };
 
   render() {
+    const { bonus, spinStatus } = this.state;
+    console.log(spinStatus);
     return (
       <Row noGutters>
         <Col xs={12}>
@@ -33,12 +50,19 @@ class App extends React.Component {
               <img src={titleImage} alt="Spin the wheel & find your fortune" />
             </Header>
             <SpinTheWheel
-              isSpinning={this.state.isSpinning}
               spinsAmount={3}
               spinDuration={3}
-              setSpinningStatus={this.setSpinningStatus}
+              coinsAnimationDuration={1}
+              spinStatus={spinStatus}
+              setSpinStatus={this.setSpinStatus}
+              setBonus={this.setBonus}
             />
-            <Coins visible={!this.state.isSpinning && !this.state.firstSpin}>
+            <Coins
+              scaleDuration={1}
+              visible={
+                spinStatus === 'animatingCoins' || spinStatus === 'complete'
+              }
+            >
               <img src={coinsImage} alt="Coins" />
             </Coins>
           </Body>
@@ -46,6 +70,12 @@ class App extends React.Component {
         <Col xs={12} style={{ background: 'black' }}>
           <Footer />
         </Col>
+        {/* Modals */}
+        <ModalBonus
+          bonus={bonus}
+          spinStatus={spinStatus}
+          resetSpinStatus={this.resetSpinStatus}
+        />
       </Row>
     );
   }
