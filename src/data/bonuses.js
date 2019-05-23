@@ -2,82 +2,90 @@ const bonuses = [
   {
     id: 0,
     name: '',
-    bonus: '200% No Rules',
-    spins: '',
+    bonus: '200%',
+    description: 'No Rules Bonus',
     code: 'WHEEL200',
-    deposit: '',
+    deposit: '$50',
     wheelPosition: 0,
-    image: require('../images/coupons/200.png')
+    image: require('../images/coupons/200.png'),
+    tableOrder: 4
   },
   {
     id: 1,
     name: 'Fire Dragon',
     bonus: '250%',
-    spins: '20',
+    description: '20 Spins',
     code: 'WHEELFD250',
-    deposit: '',
+    deposit: '$30',
     wheelPosition: 45,
-    image: require('../images/coupons/fire-dragon.png')
+    image: require('../images/coupons/fire-dragon.png'),
+    tableOrder: 1
   },
   {
     id: 2,
     name: '',
-    bonus: '350 No Max',
-    spins: '',
+    bonus: '350%',
+    description: 'No Max Bonus',
     code: 'WHEEL350',
-    deposit: '',
+    deposit: '$100',
     wheelPosition: 90,
-    image: require('../images/coupons/350.png')
+    image: require('../images/coupons/350.png'),
+    tableOrder: 7
   },
   {
     id: 3,
     name: 'Empress Wu',
     bonus: '275%',
-    spins: '30',
+    description: '30 Spins',
     code: 'WHEELEW275',
-    deposit: '',
+    deposit: '$50',
     wheelPosition: 135,
-    image: require('../images/coupons/empress-wu.png')
+    image: require('../images/coupons/empress-wu.png'),
+    tableOrder: 0
   },
   {
     id: 4,
     name: '',
-    bonus: '300% No Max',
-    spins: '',
+    bonus: '300%',
+    description: 'No Max Bonus',
     code: 'WHEEL300',
-    deposit: '',
+    deposit: '$70',
     wheelPosition: 180,
-    image: require('../images/coupons/300.png')
+    image: require('../images/coupons/300.png'),
+    tableOrder: 6
   },
   {
     id: 5,
     name: 'Plentiful Treasure',
     bonus: '320%',
-    spins: '40',
+    description: '40 Spins',
     code: 'WHEELPT320',
-    deposit: '',
+    deposit: '$100',
     wheelPosition: 225,
-    image: require('../images/coupons/plentiful-treasure.png')
+    image: require('../images/coupons/plentiful-treasure.png'),
+    tableOrder: 2
   },
   {
     id: 6,
     name: '',
-    bonus: '250% No Max',
-    spins: '',
+    bonus: '250%',
+    description: 'No Max Bonus',
     code: 'WHEEL250',
-    deposit: '',
+    deposit: '$50',
     wheelPosition: 270,
-    image: require('../images/coupons/250.png')
+    image: require('../images/coupons/250.png'),
+    tableOrder: 5
   },
   {
     id: 7,
     name: 'Scuba Fishing',
     bonus: '300%',
-    spins: '70',
+    description: '70 Spins',
     code: 'WHEELSF300',
-    deposit: '',
+    deposit: '$70',
     wheelPosition: 315,
-    image: require('../images/coupons/scuba-fishing.png')
+    image: require('../images/coupons/scuba-fishing.png'),
+    tableOrder: 3
   }
 ];
 

@@ -67,7 +67,7 @@ class App extends React.Component {
             </Coins>
           </Body>
         </Col>
-        <Col xs={12} style={{ background: 'black' }}>
+        <Col xs={12}>
           <Footer />
         </Col>
         {/* Modals */}
