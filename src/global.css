@@ -1,3 +1,11 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  background: #084f91;
+}
+
+img {
+  max-width: 100%;
+}

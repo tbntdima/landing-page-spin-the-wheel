@@ -25,8 +25,8 @@ const Wheel = styled.div`
     spin(props.nextWheelPosition, props.currentWheelPosition)};
   animation-duration: ${props => props.spinDuration}s;
   animation-fill-mode: both;
-  /* animation-timing-function: cubic-bezier(0.27, 0.99, 1, 1.1); */
-  animation-timing-function: linear;
+  animation-timing-function: cubic-bezier(0.44, 0.14, 0.58, 1.11);
+  /* animation-timing-function: linear; */
 `;
 
 export default Wheel;

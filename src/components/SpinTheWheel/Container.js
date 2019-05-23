@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 const Container = styled.div`
   position: relative;
+  z-index: 10;
   overflow: hidden;
   width: 751px;
   max-width: 100%;
