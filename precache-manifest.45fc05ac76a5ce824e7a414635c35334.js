@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c6765af5477e0cc0d5cbedd19a2f833c",
+    "revision": "d6126ed85696f8ba2890b26f646bc3f9",
     "url": "/spin-the-wheel/index.html"
   },
   {
-    "revision": "377bd13612aa61ff3929",
+    "revision": "7a8ba364a844d377d09e",
     "url": "/spin-the-wheel/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "e7c8eda8b243f8781089",
+    "revision": "dd08c844905861fdd5a3",
     "url": "/spin-the-wheel/static/css/main.27cf9836.chunk.css"
   },
   {
-    "revision": "377bd13612aa61ff3929",
-    "url": "/spin-the-wheel/static/js/2.0accf6ab.chunk.js"
+    "revision": "7a8ba364a844d377d09e",
+    "url": "/spin-the-wheel/static/js/2.2657c6ad.chunk.js"
   },
   {
-    "revision": "e7c8eda8b243f8781089",
-    "url": "/spin-the-wheel/static/js/main.76db7d94.chunk.js"
+    "revision": "dd08c844905861fdd5a3",
+    "url": "/spin-the-wheel/static/js/main.7e0db1b7.chunk.js"
   },
   {
     "revision": "0e61f5307e49ce552904",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/spin-the-wheel/static/media/button.746c0b31.png"
   },
   {
-    "revision": "deb94f51023c7528c3d1acfd3c3c4f46",
-    "url": "/spin-the-wheel/static/media/coins.deb94f51.png"
+    "revision": "4f5b78d9d45578db9ae3af002cf2c08f",
+    "url": "/spin-the-wheel/static/media/coins.4f5b78d9.png"
   },
   {
     "revision": "1667681ebcf85256f540d049d1fc7268",
