@@ -17,7 +17,9 @@ const Button = styled.button.attrs(props => ({
   outline: none;
   background-color: transparent;
   background-image: ${props =>
-    props.disabled ? `url(${buttonImageActive})` : `url(${buttonImage})`};
+    props.disabled
+      ? `url(${buttonImageActive})`
+      : `url(${buttonImage}),url(${buttonImageActive})`};
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;

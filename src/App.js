@@ -7,7 +7,10 @@ import SpinTheWheel from './components/SpinTheWheel/';
 import backgroundImage from './images/background.png';
 import titleImage from './images/title.png';
 import coinsImage from './images/coins.png';
+import buttonImage from './components/SpinTheWheel/images/button.png';
 import buttonImageActive from './components/SpinTheWheel/images/button-active.png';
+
+const imagesToPreload = [buttonImage, buttonImageActive];
 
 const Title = styled.div`
   position: relative;
@@ -60,8 +63,10 @@ class App extends React.Component {
   };
 
   componentDidMount() {
-    const img = new Image();
-    img.src = buttonImageActive;
+    imagesToPreload.forEach(image => {
+      const img = new Image();
+      img.src = image;
+    });
   }
 
   render() {
