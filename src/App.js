@@ -19,14 +19,22 @@ class App extends React.Component {
       <Row noGutters>
         <Col
           xs={12}
-          className="position-relative overflow-hidden d-flex flex-column align-items-center justify-content-center"
-          style={{ background: 'blue', minHeight: '100vh' }}
+          style={{
+            position: 'relative',
+            overflow: 'hidden',
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            justifyContent: 'center',
+            minHeight: '100vh',
+            background: ''
+          }}
         >
           <div
             style={{
-              marginBottom: '-100px',
               position: 'relative',
               zIndex: 10,
+              marginBottom: '-100px',
               textAlign: 'center'
             }}
           >
