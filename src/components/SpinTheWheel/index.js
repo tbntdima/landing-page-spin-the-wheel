@@ -1,5 +1,5 @@
 import React from 'react';
-import bonuses, { getRandomBonus } from './data/bonuses';
+import bonuses, { getRandomBonus } from '../../data/bonuses';
 
 import Container from './Container';
 import Wheel from './Wheel';

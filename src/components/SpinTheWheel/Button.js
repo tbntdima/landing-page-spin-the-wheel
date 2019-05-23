@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import buttonImage from './images/button.png';
-import buttonImageActive from './images/button-active.png';
+import buttonImage from '../../images/button.png';
+import buttonImageActive from '../../images/button-active.png';
 
 const Button = styled.button.attrs(props => ({
   disabled: props.disabled

@@ -1,53 +1,15 @@
 import React from 'react';
-import styled from 'styled-components';
+
 import { Row, Col } from 'react-bootstrap';
+
+import Body from './components/Body';
+import Header from './components/Header';
 import Footer from './components/Footer';
+import Coins from './components/Coins';
 import SpinTheWheel from './components/SpinTheWheel/';
 
-import backgroundImage from './images/background.png';
 import titleImage from './images/title.png';
 import coinsImage from './images/coins.png';
-import buttonImage from './components/SpinTheWheel/images/button.png';
-import buttonImageActive from './components/SpinTheWheel/images/button-active.png';
-
-const imagesToPreload = [buttonImage, buttonImageActive];
-
-const Title = styled.div`
-  position: relative;
-  z-index: 11;
-  margin-bottom: -140px;
-  text-align: center;
-
-  @media (max-width: 740px) {
-    margin-bottom: -18.5vw;
-  }
-`;
-
-const TopContainer = styled.div`
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  padding: 2rem 0;
-  background: url(${backgroundImage}) center center / cover no-repeat;
-`;
-
-const Coins = styled.div`
-  position: absolute;
-  z-index: 0;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform: ${props => (props.visible ? 'scale(1)' : 'scale(0)')};
-  transition: 1s;
-`;
 
 class App extends React.Component {
   state = {
@@ -62,21 +24,14 @@ class App extends React.Component {
     });
   };
 
-  componentDidMount() {
-    imagesToPreload.forEach(image => {
-      const img = new Image();
-      img.src = image;
-    });
-  }
-
   render() {
     return (
       <Row noGutters>
         <Col xs={12}>
-          <TopContainer>
-            <Title>
+          <Body>
+            <Header>
               <img src={titleImage} alt="Spin the wheel & find your fortune" />
-            </Title>
+            </Header>
             <SpinTheWheel
               isSpinning={this.state.isSpinning}
               spinsAmount={3}
@@ -84,9 +39,9 @@ class App extends React.Component {
               setSpinningStatus={this.setSpinningStatus}
             />
             <Coins visible={!this.state.isSpinning && !this.state.firstSpin}>
-              <img src={coinsImage} alt="" />
+              <img src={coinsImage} alt="Coins" />
             </Coins>
-          </TopContainer>
+          </Body>
         </Col>
         <Col xs={12} style={{ background: 'black' }}>
           <Footer />

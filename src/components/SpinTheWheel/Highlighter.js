@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import buttonImage from './images/highlighter.png';
+import buttonImage from '../../images/highlighter.png';
 
 const Highlighter = styled.div`
   position: absolute;

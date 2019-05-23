@@ -1,5 +1,5 @@
 import styled, { keyframes } from 'styled-components';
-import wheelImage from './images/wheel.png';
+import wheelImage from '../../images/wheel.png';
 
 const spin = (nextWheelPosition, currentWheelPosition) => {
   return keyframes`
