@@ -51,7 +51,7 @@ class App extends React.Component {
 
   render() {
     const { bonus, spinStatus } = this.state;
-    console.log(spinStatus);
+    // console.log(spinStatus);
     return (
       <Row noGutters style={{ overflow: 'hidden' }}>
         <Col xs={12}>

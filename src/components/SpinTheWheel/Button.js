@@ -9,7 +9,8 @@ const Button = styled.button.attrs(props => ({
   z-index: 2;
   left: 50%;
   top: 50%;
-  transform: translateX(-50%) translateY(-50%);
+  transform: translate3d(-50%, -50%, 0);
+  filter: blur(0.000001px);
   display: block;
   width: 247px;
   height: 303px;

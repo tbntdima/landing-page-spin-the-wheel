@@ -52,7 +52,7 @@ class SpinTheWheel extends React.Component {
   render() {
     const { nextWheelPosition, currentWheelPosition } = this.state;
     const { spinStatus } = this.props;
-    console.log(this.state);
+    // console.log(this.state);
 
     return (
       <Container>
