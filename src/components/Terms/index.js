@@ -21,7 +21,7 @@ const TermsContent = styled.div`
   position: relative;
   max-width: 1120px;
   margin: 0 auto;
-  padding: 12px;
+  padding: 2rem 0 0.5rem;
 `;
 
 const TermsButton = styled.button`

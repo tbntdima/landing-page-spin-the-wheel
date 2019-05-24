@@ -12,7 +12,7 @@ const Button = styled.button.attrs(props => ({
   transform: translateX(-50%) translateY(-50%);
   display: block;
   width: 247px;
-  height: 294px;
+  height: 303px;
   border: none;
   outline: none;
   background-color: transparent;
@@ -31,7 +31,7 @@ const Button = styled.button.attrs(props => ({
   }
   @media (max-width: 751px) {
     width: calc(24700vw / 751);
-    height: calc((24700vw / 751) * 294 / 247);
+    height: calc((24700vw / 751) * 303 / 247);
   }
 `;
 

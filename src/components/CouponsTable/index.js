@@ -35,10 +35,13 @@ const CouponCard = styled.a`
 `;
 
 const Text = styled.p`
-  display: flex;
+  display: ${props => (props.display ? props.display : 'flex')};
   justify-content: center;
   margin: ${props => (props.margin ? props.margin : '0 0 5px')};
   padding: ${props => (props.padding ? props.padding : '0 20px')};
+  background: ${props => (props.background ? props.background : 'transparent')};
+  border: ${props => (props.border ? props.border : 'none')};
+  border-radius: ${props => (props.borderRadius ? props.borderRadius : 'none')}
   color: ${props => (props.color ? props.color : 'white')};
   font-size: ${props => (props.fontSize ? props.fontSize : '17px')};
   text-align: center;
@@ -76,7 +79,16 @@ const CouponsTable = () => {
           </Box>
           <Box height="81px">
             <Text>Use code:</Text>
-            <Text color="#70ff95">{bonus.code}</Text>
+            <Text
+              display="inline-flex"
+              color="#70ff95"
+              background="#0e3259"
+              border="2px dashed #318ece"
+              borderRadius="10px"
+              padding="5px 10px"
+            >
+              {bonus.code}
+            </Text>
           </Box>
           <Box height="32px">
             <Text fontSize="14px" color="#6498d0">
