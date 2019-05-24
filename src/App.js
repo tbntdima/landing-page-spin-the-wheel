@@ -39,6 +39,16 @@ class App extends React.Component {
     });
   };
 
+  componentDidMount() {
+    window.addEventListener('DOMContentLoaded', event => {
+      const coupons = bonuses.map(bonus => bonus.image);
+      coupons.forEach(coupon => {
+        const img = new Image();
+        img.src = coupon;
+      });
+    });
+  }
+
   render() {
     const { bonus, spinStatus } = this.state;
     console.log(spinStatus);

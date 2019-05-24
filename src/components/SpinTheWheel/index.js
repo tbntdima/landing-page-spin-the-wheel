@@ -2,7 +2,7 @@ import React from 'react';
 import bonuses, { getRandomBonus } from '../../data/bonuses';
 
 import Container from './Container';
-import Wheel from './Wheel';
+import Wheel, { WheelBackground } from './Wheel';
 import Highlighter from './Highlighter';
 import Button from './Button';
 
@@ -56,6 +56,7 @@ class SpinTheWheel extends React.Component {
 
     return (
       <Container>
+        <WheelBackground />
         <Wheel
           currentWheelPosition={currentWheelPosition}
           nextWheelPosition={nextWheelPosition}

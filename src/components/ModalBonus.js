@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Modal } from 'react-bootstrap';
 
-import closeImage from '../images/close.png';
+import closeImage from '../images/close.svg';
 
 const CouponContainer = styled.div`
   position: relative;

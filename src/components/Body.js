@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import backgroundImage from '../images/background.png';
+import backgroundImage from '../images/background.jpg';
 
 export default styled.div`
   position: relative;

@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import CouponsTable from './CouponsTable/';
 import Terms from './Terms/';
 
-import redLineImage from '../images/red-line.png';
+import redLineImage from '../images/red-line.svg';
 import logoImage from '../images/logo.png';
 
 const FooterContainer = styled.div`

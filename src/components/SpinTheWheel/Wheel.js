@@ -1,5 +1,6 @@
 import styled, { keyframes } from 'styled-components';
 import wheelImage from '../../images/wheel.png';
+import wheelBackgroundImage from '../../images/wheelBackground.png';
 
 const spin = (nextWheelPosition, currentWheelPosition) => {
   return keyframes`
@@ -12,9 +13,19 @@ const spin = (nextWheelPosition, currentWheelPosition) => {
   `;
 };
 
-const Wheel = styled.div`
+export const WheelBackground = styled.div`
   position: absolute;
   z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(${wheelBackgroundImage}) center center / cover no-repeat;
+`;
+
+const Wheel = styled.div`
+  position: absolute;
+  z-index: 1;
   top: 0;
   left: 0;
   width: 100%;
@@ -26,7 +37,6 @@ const Wheel = styled.div`
   animation-duration: ${props => props.spinDuration}s;
   animation-fill-mode: both;
   animation-timing-function: cubic-bezier(0.44, 0.14, 0.58, 1.11);
-  /* animation-timing-function: linear; */
 `;
 
 export default Wheel;

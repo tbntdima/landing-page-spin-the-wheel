@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import TermsData from '../../data/terms';
 
-import termsImage from '../../images/terms.png';
+import termsImage from '../../images/terms.svg';
 
 const TermsContainer = styled.div`
   position: absolute;
