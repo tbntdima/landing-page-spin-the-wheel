@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6f75231ae3b623727d588ef5ddcbc56c",
+    "revision": "8df63001db80e322cde33fc915487b67",
     "url": "/spin-the-wheel/index.html"
   },
   {
-    "revision": "ac3eee293d59eaad03bf",
+    "revision": "2b8eabbfcdb38bc5812a",
     "url": "/spin-the-wheel/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "d799299f61953c704dbb",
+    "revision": "fcb384deead9c0b55a57",
     "url": "/spin-the-wheel/static/css/main.49bb62b6.chunk.css"
   },
   {
-    "revision": "ac3eee293d59eaad03bf",
-    "url": "/spin-the-wheel/static/js/2.8c658531.chunk.js"
+    "revision": "2b8eabbfcdb38bc5812a",
+    "url": "/spin-the-wheel/static/js/2.87c32aac.chunk.js"
   },
   {
-    "revision": "d799299f61953c704dbb",
-    "url": "/spin-the-wheel/static/js/main.3af7a02c.chunk.js"
+    "revision": "fcb384deead9c0b55a57",
+    "url": "/spin-the-wheel/static/js/main.e48f0583.chunk.js"
   },
   {
     "revision": "0e61f5307e49ce552904",
@@ -52,6 +52,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/spin-the-wheel/static/media/button.cb20eb1e.png"
   },
   {
+    "revision": "ee2871a28ad705ddeaecaced8ad9292f",
+    "url": "/spin-the-wheel/static/media/close.ee2871a2.svg"
+  },
+  {
     "revision": "1f7bbd64364409bf8e23d34b7cc2f05a",
     "url": "/spin-the-wheel/static/media/coins.1f7bbd64.png"
   },
@@ -68,15 +72,27 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/spin-the-wheel/static/media/plentiful-treasure.73d4dbd3.png"
   },
   {
+    "revision": "a1b128028ed5a417acb2232625630d13",
+    "url": "/spin-the-wheel/static/media/red-line.a1b12802.svg"
+  },
+  {
     "revision": "1077e13a19d8c24e36d89c4fe26ac014",
     "url": "/spin-the-wheel/static/media/scuba-fishing.1077e13a.png"
+  },
+  {
+    "revision": "eaae434e973af49b2b032ced55c5a886",
+    "url": "/spin-the-wheel/static/media/terms.eaae434e.svg"
   },
   {
     "revision": "d7834cc463c386e1226adc2ad3bbf8b1",
     "url": "/spin-the-wheel/static/media/title.d7834cc4.png"
   },
   {
-    "revision": "b710250424a3976f3e098eb758240f84",
-    "url": "/spin-the-wheel/static/media/wheel.b7102504.png"
+    "revision": "90a82e3a988a6fa9b67b251415dce231",
+    "url": "/spin-the-wheel/static/media/wheel.90a82e3a.png"
+  },
+  {
+    "revision": "ca5159f6cd388630267a540c05065ff6",
+    "url": "/spin-the-wheel/static/media/wheelBackground.ca5159f6.png"
   }
 ]);
