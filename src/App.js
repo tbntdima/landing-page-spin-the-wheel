@@ -43,7 +43,7 @@ class App extends React.Component {
     const { bonus, spinStatus } = this.state;
     console.log(spinStatus);
     return (
-      <Row noGutters>
+      <Row noGutters style={{ overflow: 'hidden' }}>
         <Col xs={12}>
           <Body>
             <Header>
