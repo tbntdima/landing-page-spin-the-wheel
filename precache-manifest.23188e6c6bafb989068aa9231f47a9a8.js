@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8df63001db80e322cde33fc915487b67",
+    "revision": "68cd2cf4c0737194c1557cc8dc691c08",
     "url": "/spin-the-wheel/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/spin-the-wheel/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "fcb384deead9c0b55a57",
+    "revision": "1b155f671a57ccaf4229",
     "url": "/spin-the-wheel/static/css/main.49bb62b6.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/spin-the-wheel/static/js/2.87c32aac.chunk.js"
   },
   {
-    "revision": "fcb384deead9c0b55a57",
-    "url": "/spin-the-wheel/static/js/main.e48f0583.chunk.js"
+    "revision": "1b155f671a57ccaf4229",
+    "url": "/spin-the-wheel/static/js/main.81cd9aa5.chunk.js"
   },
   {
     "revision": "0e61f5307e49ce552904",
@@ -44,12 +44,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/spin-the-wheel/static/media/background.58c75439.jpg"
   },
   {
-    "revision": "40dc781e6eb8e53d36d9ea8b7b6ff72d",
-    "url": "/spin-the-wheel/static/media/button-active.40dc781e.png"
+    "revision": "1ecb47b31af7c7e6fbebb125e3639d0c",
+    "url": "/spin-the-wheel/static/media/button-active.1ecb47b3.png"
   },
   {
-    "revision": "cb20eb1e22cafd9c2a15c3945d76fb1a",
-    "url": "/spin-the-wheel/static/media/button.cb20eb1e.png"
+    "revision": "1ff2f1bc14a0c45a11de458c42be0f65",
+    "url": "/spin-the-wheel/static/media/button.1ff2f1bc.png"
   },
   {
     "revision": "ee2871a28ad705ddeaecaced8ad9292f",
