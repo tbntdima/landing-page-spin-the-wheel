@@ -12,4 +12,7 @@ export default styled.div`
   align-items: center;
   transform: ${props => (props.visible ? 'scale(1)' : 'scale(0)')};
   transition: ${props => props.scaleDuration}s;
+  @media (max-width: 900px) {
+    display: none;
+  }
 `;

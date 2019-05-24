@@ -42,6 +42,10 @@ const TermsButton = styled.button`
   &:focus {
     outline: none;
   }
+  @media (max-width: 768px) {
+    right: 50%;
+    transform: translateX(50%) translateY(-100%);
+  }
 `;
 
 class Terms extends React.Component {
