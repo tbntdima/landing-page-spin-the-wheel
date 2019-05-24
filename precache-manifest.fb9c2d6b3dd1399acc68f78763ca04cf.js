@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "106a161a1b68fd9284a2153215d4b8b0",
+    "revision": "83d834fc2c59d9fefc5e80e0be6f3cd5",
     "url": "/spin-the-wheel/index.html"
   },
   {
-    "revision": "672a7f41f6ed04b9219a",
+    "revision": "ac3eee293d59eaad03bf",
     "url": "/spin-the-wheel/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "ac1c618155480ca20de3",
-    "url": "/spin-the-wheel/static/css/main.f73b8468.chunk.css"
+    "revision": "ccd863eef00f7bf4e502",
+    "url": "/spin-the-wheel/static/css/main.062a72ed.chunk.css"
   },
   {
-    "revision": "672a7f41f6ed04b9219a",
-    "url": "/spin-the-wheel/static/js/2.4c92029b.chunk.js"
+    "revision": "ac3eee293d59eaad03bf",
+    "url": "/spin-the-wheel/static/js/2.8c658531.chunk.js"
   },
   {
-    "revision": "ac1c618155480ca20de3",
-    "url": "/spin-the-wheel/static/js/main.f1c551de.chunk.js"
+    "revision": "ccd863eef00f7bf4e502",
+    "url": "/spin-the-wheel/static/js/main.3486a83f.chunk.js"
   },
   {
     "revision": "0e61f5307e49ce552904",
