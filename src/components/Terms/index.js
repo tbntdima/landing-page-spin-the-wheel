@@ -6,6 +6,7 @@ import termsImage from '../../images/terms.svg';
 
 const TermsContainer = styled.div`
   position: absolute;
+  z-index: 100;
   left: 0;
   bottom: 0;
   width: 100%;

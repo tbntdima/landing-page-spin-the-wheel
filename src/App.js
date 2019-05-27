@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from 'styled-components';
 
 import { Row, Col } from 'react-bootstrap';
 
@@ -11,18 +10,9 @@ import SpinTheWheel from './components/SpinTheWheel/';
 import ModalBonus from './components/ModalBonus';
 
 import titleImage from './images/title.png';
-import logoImage from './images/logo.png';
 import coinsImage from './images/coins.png';
 
 import bonuses from './data/bonuses';
-
-const Logo = styled.img`
-  display: none;
-  @media (max-width: 578px) {
-    display: inline-block;
-    margin-bottom: 0.5rem;
-  }
-`;
 
 class App extends React.Component {
   state = {
@@ -67,7 +57,6 @@ class App extends React.Component {
         <Col xs={12}>
           <Body>
             <Header>
-              <Logo src={logoImage} alt="Captain Jack Casino" />
               <img src={titleImage} alt="Spin the wheel & find your fortune" />
             </Header>
             <SpinTheWheel

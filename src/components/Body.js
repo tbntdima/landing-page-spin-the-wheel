@@ -8,7 +8,7 @@ export default styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 75vh;
   padding: 2rem 0;
   background: url(${backgroundImage}) center center / cover no-repeat;
 `;
