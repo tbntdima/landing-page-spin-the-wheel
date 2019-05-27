@@ -2,7 +2,7 @@
   "name": "spin-the-wheel",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.captainjackcampaign.com/landing/spin-the-wheel-w1/",
+  "homepage": "https://dmitriyaa.github.io/react-spin-the-wheel/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.0.1",
