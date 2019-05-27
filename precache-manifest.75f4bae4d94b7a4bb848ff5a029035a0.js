@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "395ddbfe352cc39e395c0d7d627f8b35",
+    "revision": "cd86cd5da97fe96e561ddf598baaf7d7",
     "url": "/react-spin-the-wheel/index.html"
   },
   {
-    "revision": "f981001a3489a515b1a7",
+    "revision": "a5cc0edbe66e7535c3fd",
     "url": "/react-spin-the-wheel/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "8c7aaa4c3670bf3a4ee7",
-    "url": "/react-spin-the-wheel/static/css/main.32423ef5.chunk.css"
+    "revision": "7fd0e92883e77a84e449",
+    "url": "/react-spin-the-wheel/static/css/main.49bb62b6.chunk.css"
   },
   {
-    "revision": "f981001a3489a515b1a7",
-    "url": "/react-spin-the-wheel/static/js/2.c54f2ea8.chunk.js"
+    "revision": "a5cc0edbe66e7535c3fd",
+    "url": "/react-spin-the-wheel/static/js/2.c270ed15.chunk.js"
   },
   {
-    "revision": "8c7aaa4c3670bf3a4ee7",
-    "url": "/react-spin-the-wheel/static/js/main.23ad37a1.chunk.js"
+    "revision": "7fd0e92883e77a84e449",
+    "url": "/react-spin-the-wheel/static/js/main.0000b8e3.chunk.js"
   },
   {
     "revision": "d6fb9d0184fe06f9c8cf",
