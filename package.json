@@ -2,7 +2,7 @@
   "name": "spin-the-wheel",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dmitriyaa.github.io/react-spin-the-wheel/",
+  "homepage": "./",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.0.1",
@@ -14,11 +14,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && mv build spin-the-wheel-w1",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -5,7 +5,7 @@ import CouponsTable from './CouponsTable/';
 import Terms from './Terms/';
 
 import redLineImage from '../images/red-line.svg';
-import logoImage from '../images/logo.png';
+import { logo as logoImage } from '../data/bonuses';
 
 const FooterContainer = styled.div`
   position: relative;
@@ -44,7 +44,7 @@ const Footer = () => (
     <Title>Don’t want to spin? Find your coupon code below:</Title>
     <CouponsTable />
     <Logo>
-      <img src={logoImage} alt="Captain Jack Casino" />
+      <img style={{ maxWidth: '150px' }} src={logoImage} alt="Logo" />
     </Logo>
     <Terms />
   </FooterContainer>
