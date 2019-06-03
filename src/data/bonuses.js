@@ -15,23 +15,23 @@ const logos = [
 ];
 
 const casinosUrls = [
-  'https://captainjackcasino.com/webplay/?coupon=',
+  'https://captainjackcasino.com/webplay/?cashier&coupon=',
   'https://www.clubplayercasino.com/webplay/?cashier&coupon=',
-  'https://www.dreamscasino.com/webplay/?coupon=',
-  'https://www.grandfortunecasino.com/webplay/?coupon=',
-  'https://www.palaceofchance.com/webplay/?coupon=',
-  'https://www.prismcasino.com/webplay/?coupon=',
-  'https://www.ragingbullslots.com/webplay/?coupon=',
-  'https://www.royalacecasino.com/webplay/?coupon=',
-  'https://www.rubyslots.com/webplay/?coupon=',
-  'https://www.slotsgarden.com',
-  'https://www.thevirtualcasino.com/webplay/?coupon=',
-  'https://www.wildvegascasino.com/webplay/?coupon=',
-  'https://www.vegasstripcasino.com/webplay/?cashier&coupon='
+  'https://www.dreamscasino.com/webplay/?cashier&coupon=',
+  'https://www.grandfortunecasino.com/webplay/?cashier&coupon=',
+  'https://www.palaceofchance.com/webplay/?cashier&coupon=',
+  'https://www.prismcasino.com/webplay/?cashier&coupon=',
+  'https://www.ragingbullslots.com/webplay/?cashier&coupon=',
+  'https://www.royalacecasino.com/webplay/?cashier&coupon=',
+  'https://www.rubyslots.com/webplay/?cashier&coupon=',
+  'https://www.slotsgarden.com/webplay/?cashier&coupon=',
+  'https://www.thevirtualcasino.com/webplay/?cashier&coupon=',
+  'https://www.wildvegascasino.com/webplay/?cashier&coupon=',
+  'https://www.vegasstripcasino.com/?coupon='
 ];
 
-export const logo = logos[1];
-const casinoUrl = casinosUrls[1];
+export const logo = logos[12];
+const casinoUrl = casinosUrls[12];
 
 const bonuses = [
   {

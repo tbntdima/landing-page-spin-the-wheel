@@ -57,7 +57,11 @@ class App extends React.Component {
         <Col xs={12}>
           <Body>
             <Header>
-              <img src={titleImage} alt="Spin the wheel & find your fortune" />
+              <img
+                style={{ width: '600px' }}
+                src={titleImage}
+                alt="Spin the wheel & find your fortune"
+              />
             </Header>
             <SpinTheWheel
               spinsAmount={5}

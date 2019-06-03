@@ -12,8 +12,8 @@ const Button = styled.button.attrs(props => ({
   transform: translate3d(-50%, -50%, 0);
   filter: blur(0.000001px);
   display: block;
-  width: 247px;
-  height: 303px;
+  width: 198px;
+  height: 243px;
   border: none;
   outline: none;
   background-color: transparent;
@@ -31,8 +31,8 @@ const Button = styled.button.attrs(props => ({
     outline: none;
   }
   @media (max-width: 751px) {
-    width: calc(24700vw / 751);
-    height: calc((24700vw / 751) * 303 / 247);
+    width: calc(198 * 100vw / 751);
+    height: calc((198 * 100vw / 751) * 243 / 198);
   }
 `;
 

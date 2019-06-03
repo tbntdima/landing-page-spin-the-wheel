@@ -7,10 +7,10 @@ const Highlighter = styled.div`
   left: 50%;
   top: 50%;
   transform: translateX(-50%) translateY(-100%);
-  width: 751px;
-  height: calc(751px / 2);
+  width: 600px;
+  height: calc(600px / 2);
   background: url(${buttonImage}) center center / cover no-repeat;
-  @media (max-width: 751px) {
+  @media (max-width: 600px) {
     width: 100vw;
     height: calc(100vw / 2);
   }
