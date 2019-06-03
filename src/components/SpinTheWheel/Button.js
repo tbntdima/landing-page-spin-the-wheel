@@ -31,8 +31,8 @@ const Button = styled.button.attrs(props => ({
     outline: none;
   }
   @media (max-width: 751px) {
-    width: calc(24700vw / 751);
-    height: calc((24700vw / 751) * 303 / 247);
+    width: calc(247 * 100vw / 751);
+    height: calc((247 * 100vw / 751) * 303 / 247);
   }
 `;
 
