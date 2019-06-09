@@ -49,11 +49,7 @@ const ModalBonus = ({ bonus, spinStatus, resetSpinStatus }) => {
       size="lg"
     >
       <CouponContainer>
-        <a
-          href={`https://www.captainjackcasino.com/webplay/?cashier&coupon=${
-            bonus.code
-          }`}
-        >
+        <a href={`#somelink/webplay/?cashier&coupon=${bonus.code}`}>
           <img src={bonus.image} alt="" />
         </a>
         <CloseButton onClick={resetSpinStatus} />
